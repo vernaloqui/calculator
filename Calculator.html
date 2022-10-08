@@ -13,13 +13,12 @@
             font-family: Gotham Rounded, sans-serif;
             font-weight: normal;
         }
-        body {
+        .container {
             margin: 0;
             padding: 0;
             display: flex;
             align-items: center;
             justify-content: center;
-            height: 100vh;
             
         }
         .keys {
@@ -67,8 +66,14 @@
     </style>
 </head>
 <body>
+
+<div class="container-fluid text-center bottom" style="background-color:#ffd5af;">
+            
+            <p style="color:#712e1e;">Mouse-Operated Calculator</p>
+</div>
     <br><br><br>
     <center>
+    <div class="container">
     <form id="form1">
         <div class="output">
             <p class="text-muted" id="statement"></p>
@@ -98,7 +103,19 @@
             
         </div>
     </form>
+    </div>
     </center>
+
+    <br> <br><br><br> 
+        <!--Start of footer-->
+    
+         <footer class="container-fluid text-center fixed-bottom" style="background-color:#ffd5af;">
+            <i class="bi bi-facebook" type="button" style="color:#712e1e;"><a href="www.facebook.com"></a></i>
+            <i class="bi bi-instagram" type="button" style="color:#712e1e;"></i>
+            <i class="bi bi-youtube" type="button" style="color:#712e1e;"></i>
+            <br>
+            <p style="color:#712e1e;">Kodego 2022 Bootcamp. WD20P Software Chasers - Vernadette Loquinario</p>
+        </footer>
 
     <script>
         function back(x) {
